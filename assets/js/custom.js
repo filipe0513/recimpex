@@ -6,7 +6,7 @@
 
 	$(window).load(function() {
 		$('#status').fadeOut();
-		$('#preloader').delay(350).fadeOut('slow');
+		$('#preloader').delay(0).fadeOut('slow');
 	});
 
 	$(document).ready(function() {
@@ -41,7 +41,8 @@
 		 * Background image
 		/* ---------------------------------------------- */
 
-		$('#intro').backstretch(['assets/images/bg3.jpg']);
+		// $('#intro').backstretch(['assets/images/bg3.jpg']);
+		$('#intro').backstretch(['assets/images/examples/hero-bg.jpg']);
 
 		/* ---------------------------------------------- /*
 		 * Navbar

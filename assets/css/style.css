@@ -736,7 +736,8 @@ a,
 /* ---------------------------------------------- */
 
 #about-header {
-	background: url(../images/bg1.jpg) no-repeat center fixed;
+	/*background: url(../images/bg1.jpg) no-repeat center fixed;*/
+	background: url(../images/examples/about-bg.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 			background-size: cover;
 }
@@ -764,7 +765,8 @@ a,
 /* ---------------------------------------------- */
 
 #portfolio-header {
-	background: url(../images/bg2.jpg) no-repeat center fixed;
+	/*background: url(../images/bg2.jpg) no-repeat center fixed;*/
+	background: url(../images/examples/hero-bg.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 			background-size: cover;
 }
@@ -870,7 +872,8 @@ a,
 /* ---------------------------------------------- */
 
 #contact-header {
-	background: url(../images/bg1.jpg) no-repeat center fixed;
+	/*background: url(../images/bg1.jpg) no-repeat center fixed;*/
+	background: url(../images/examples/about-bg.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 			background-size: cover;
 }
@@ -878,6 +881,12 @@ a,
 #contact-data {
 	background: #ebeff0;
 	text-align: center;
+}
+
+.fa-2 {
+ 	font-size: 2em !important;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 #map-section {
